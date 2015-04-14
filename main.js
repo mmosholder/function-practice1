@@ -41,7 +41,7 @@ var toArray = function(x, y, z) {
 
 	return newArray;
 
-}
+};
 
 // Starts With
 var startsWithA = function(s) {
@@ -50,12 +50,12 @@ var startsWithA = function(s) {
 	}
 	return false;
 	
-}
+};
 
 // Excite
 var excite = function(s) {
 	return s + '!!!';
-}
+};
 
 // Sun
 var sun = function(s) {
@@ -63,7 +63,7 @@ var sun = function(s) {
 		return true;
 	}
 	return false;
-}
+};
 
 // Tiny
 var tiny = function(x) {
@@ -71,10 +71,10 @@ var tiny = function(x) {
 		return true;
 	}
 	 return false;
-}
+};
 
 // Get Seconds
 var getSeconds = function(t) {
-	var time = t.split(":")
+	var time = t.split(":");
 	return time[0] * 60 + parseInt(time[1]);
-}
+};
